@@ -1,0 +1,51 @@
+
+page{
+ 	font-size: 28rpx;
+}
+@-webkit-keyframes show {
+0% {
+	        opacity: 0
+}
+100% {
+	        opacity: 1
+}
+}
+@keyframes show {
+0% {
+	        opacity: 0
+}
+100% {
+	        opacity: 1
+}
+}
+.page{
+		height:100vh;
+}
+.bar{
+		    width: 60px;
+		    margin: 0 auto;
+		    height: 3px;
+		    /* background-color:#d8d8d8; */
+		    border-radius: 2px;
+}
+.page {
+	 	height: 100Vh;
+	 	width: 100vw;
+}
+.page.show {
+	 	overflow: hidden;
+}
+.switch-sex::after {
+	 	content: "\e716";
+}
+.switch-sex::before {
+	 	content: "\e7a9";
+}
+.switch-music::after {
+	 	content: "\e66a";
+}
+.switch-music::before {
+	 	content: "\e6db";
+}
+ 
+
